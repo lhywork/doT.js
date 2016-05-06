@@ -40,9 +40,9 @@ doT上手比较容易，但之前熟悉了mustache，改用doT时有点不习惯
 这些基本够用了，还有复杂的应用，可以看doT主页内的examples、docs。
 并且，可以很容易把doT写成jquery插件：
 		<script>
-		$.extend({
-		tmpl: function(template, data){
-		        return doT.template(template).apply(null,[data]);
-		}
-		});
+			$.extend({
+			tmpl: function(template, data){
+			        return doT.template(template).apply(null,[data]);
+			}
+			});
 		</script>
